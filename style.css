@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.keyboard {
+  display: none;
+  flex-direction: column;
+  border: 2px solid #000;
+  padding: 10px;
+  align-items: start;
+  position: absolute;
+  bottom: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.key {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.backspace {
+  width: 80px;
+}
+
+.tab {
+  width: 60px;
+}
+
+.caps-lock, .enter, .left-shift, .right-shift, .left-ctrl, .left-alt, .right-alt, .right-ctrl {
+  width: 100px;
+}
+
+.space {
+  width: 300px;
+}
