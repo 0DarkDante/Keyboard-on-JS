@@ -6,6 +6,14 @@ body {
   margin: 0;
 }
 
+body {
+  background-image: url('/IMG/thiva-nssQpiE3N-k-unsplash.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+
+
 .keyboard {
   display: none;
   flex-direction: column;
